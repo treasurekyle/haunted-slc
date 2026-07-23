@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SLC Walking Ghost Tour</title>
+<meta name="description" content="A free, friendly, community-led walking ghost tour of Salt Lake City — hosted annually by Kyle Treasure and friends.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero">
+    <img id="hero-image" src="" alt="">
+    <div class="hero-cta" data-rsvp></div>
+  </header>
+
+  <!-- ============ THIS YEAR'S STOPS ============ -->
+  <section class="route">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">The Route</span>
+        <h2>This Year's Stops</h2>
+      </div>
+      <p class="route-info" id="route-info"></p>
+      <div class="stops-grid" id="stops-grid"></div>
+    </div>
+  </section>
+
+  <div class="tear"></div>
+
+  <!-- ============ ABOUT THE TOUR ============ -->
+  <section class="paper-section">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">A Bit of History</span>
+        <h2>The Story of the Tour</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-block">
+          <h3>How It Started</h3>
+          <p>In 2020, I was living in Washington D.C. and heard amazing things about the Georgetown walking ghost tours. But when I saw the price &mdash; $65+ per person &mdash; I thought, surely I can make my own!</p>
+          <p>So I did. I gathered ghost stories from online sources, shared them with friends, and each of us researched and presented a stop on our own DIY ghost walk. It was a total success, and way more fun (and affordable) than the real thing.</p>
+          <p>When I moved to Salt Lake City the next year, I brought the idea with me and kept it going.</p>
+        </div>
+        <div class="about-block">
+          <h3>The Salt Lake City Tour</h3>
+          <p>Now in its sixth year, the SLC Walking Ghost Tour is a casual, community-led stroll through the city's most haunted corners: Capitol Hill, Central City, the Avenues, and beyond. Each year, my friends volunteer to research and present a new set of spooky stories, so the route and lineup are always changing.</p>
+          <p>Expect a friendly, not-too-scary evening full of history, local lore, and the occasional chill down your spine. It's not a professional tour, just a group of curious friends keeping Salt Lake's ghost stories alive.</p>
+          <p>We're always looking for new stops and storytellers! If you have a haunting to suggest, or want to lead a future stop, please reach out. Future routes may include the Salt Lake Cemetery, 9th and 9th, and Sugar House.</p>
+          <p class="signature">&mdash; Kyle Treasure</p>
+        </div>
+      </div>
+
+      <div class="faq-note">
+        <div class="section-head" style="margin-bottom: 30px;">
+          <span class="eyebrow">Before You Go</span>
+          <h2 style="font-size: 2rem;">Frequently Asked Questions</h2>
+        </div>
+
+        <details class="faq-item">
+          <summary>Is it free?</summary>
+          <p>Yes! I just put this on for my friends, so it's very casual.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Do I need to RSVP?</summary>
+          <p>You will starting in 2026! Stay tuned for the 2026 sign up soon.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Where should I park?</summary>
+          <p>I always recommend parking near the end of the route each year. That way it's easy to get back to your car after it's over.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>How long does the tour take?</summary>
+          <p>About 2 hours! But feel free to come and go as you please.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Is it appropriate for kids?</summary>
+          <p>We've had kids as young as 7 years old join before... but it was slightly too scary for that poor kid. :-/ Ultimately it's up to you!</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Is it accessible?</summary>
+          <p>We'll stick to city sidewalks and roadways at all times, so it's as accessible as those are!</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Why do you do this?</summary>
+          <p>To get my friends together to walk around downtown and tell cool/fun/interesting stories.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Anything else I should know?</summary>
+          <p>By joining this walking tour, you acknowledge that you are participating voluntarily and at your own risk. You understand that the tour involves walking on public streets and sidewalks, possibly at night, and that you are responsible for your own safety, belongings, and actions at all times.</p>
+          <p class="faq-legal">You release the tour organizer and fellow participants from any liability for injury, loss, or damage that may occur during the event. You understand this is an informal, social activity among friends &mdash; not a commercial or professionally guided tour &mdash; and you agree to act responsibly and follow all traffic and safety rules.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <div class="tear-up"></div>
+
+  <!-- ============ GALLERY ============ -->
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Field Notes</span>
+        <h2>From Past Tours</h2>
+        <p>The SLC Walking Ghost Tour has been happening annually since 2020. Check out some moments from previous years below.</p>
+      </div>
+      <div class="gallery-grid" id="gallery-grid"></div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER / RSVP ============ -->
+  <footer>
+    <div class="wrap">
+      <span class="eyebrow">Join Us</span>
+      <h2>See You On the Route</h2>
+      <div data-rsvp></div>
+      <p class="foot-note">SLC Walking Ghost Tour &middot; A free, friend-led event &middot; Organized by Kyle Treasure</p>
+    </div>
+  </footer>
+
+  <script src="data/stops.js"></script>
+  <script src="data/current-tour.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
