@@ -4,3 +4,6 @@ ghost-tour-site/
 past tour photos/
 tour stops/
 website headers/
+
+# Local Netlify folder
+.netlify
