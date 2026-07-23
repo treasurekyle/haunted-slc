@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=IM+Fell+English:ital@0;1&family=Special+Elite&family=Vollkorn:ital,wght@0,400;0,500;0,600;1,400&family=Creepster&display=swap');
 
 :root {
-  --bg: #14100d;
-  --bg-panel: #1e1812;
-  --bg-panel-2: #241d15;
-  --paper: #ece2cb;
-  --paper-2: #e2d5b8;
-  --ink: #2a2118;
-  --ink-soft: #4a3d2c;
-  --text: #f1e9d8;
-  --text-muted: #b3a488;
-  --line: #3c3122;
-  --blood: #9c3327;
-  --blood-bright: #b6402f;
-  --lantern: #c99a3a;
-  --lantern-soft: #e0be6f;
+  --bg: #000000;
+  --bg-panel: #111111;
+  --bg-panel-2: #1a1a1a;
+  --paper: #ffffff;
+  --paper-2: #f0f0f0;
+  --ink: #1a1a1a;
+  --ink-soft: #555555;
+  --text: #ffffff;
+  --text-muted: #888888;
+  --line: #333333;
+  --blood: #ff1b1b;
+  --blood-bright: #ff1b1b;
+  --lantern: #ffffff;
+  --lantern-soft: #ffffff;
   --shadow: rgba(0, 0, 0, 0.5);
 
   --font-display: 'IM Fell English SC', serif;
@@ -92,9 +92,9 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 400; letter-spacing:
 .btn-lantern {
   background: var(--lantern);
   color: #1b1206;
-  box-shadow: 0 0 0 1px var(--lantern), 0 8px 24px -8px rgba(201, 154, 58, 0.55);
+  box-shadow: 0 0 0 1px var(--lantern), 0 8px 24px -8px rgba(255, 255, 255, 0.3);
 }
-.btn-lantern:hover { transform: translateY(-2px); box-shadow: 0 0 0 1px var(--lantern-soft), 0 12px 28px -8px rgba(201, 154, 58, 0.7); }
+.btn-lantern:hover { transform: translateY(-2px); box-shadow: 0 0 0 1px var(--lantern-soft), 0 12px 28px -8px rgba(255, 255, 255, 0.2); }
 
 .btn-ghost {
   background: transparent;
@@ -337,7 +337,7 @@ section { padding: 84px 0; }
 
 /* ---------- Footer ---------- */
 footer {
-  background: #0c0906;
+  background: #000000;
   border-top: 1px solid var(--line);
   text-align: center;
   padding: 70px 0 46px;
