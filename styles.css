@@ -60,13 +60,6 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 400; letter-spacing:
   align-items: center;
   gap: 10px;
 }
-.eyebrow::before {
-  content: '';
-  width: 18px;
-  height: 1px;
-  background: var(--lantern);
-  display: inline-block;
-}
 
 :focus-visible {
   outline: 2px solid var(--lantern-soft);
@@ -242,7 +235,6 @@ section { padding: 84px 0; }
 /* ---------- Paper panels (About / FAQ) ---------- */
 .paper-section { background: var(--paper); color: var(--ink); }
 .paper-section .eyebrow { color: var(--blood); }
-.paper-section .eyebrow::before { background: var(--blood); }
 .paper-section .section-head h2 { color: var(--ink); }
 .paper-section .section-head p { color: var(--ink-soft); }
 
