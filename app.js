@@ -74,6 +74,28 @@ function renderStops() {
   });
 }
 
+function openLightbox(src, alt) {
+  let overlay = document.getElementById('lightbox');
+  if (!overlay) {
+    overlay = document.createElement('div');
+    overlay.id = 'lightbox';
+    overlay.innerHTML = '<img id="lightbox-img" src="" alt="">';
+    document.body.appendChild(overlay);
+    overlay.addEventListener('click', closeLightbox);
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
+  }
+  overlay.querySelector('#lightbox-img').src = src;
+  overlay.querySelector('#lightbox-img').alt = alt;
+  overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+  const overlay = document.getElementById('lightbox');
+  if (overlay) overlay.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
 function renderGallery() {
   const grid = document.getElementById('gallery-grid');
   const years = [
@@ -97,6 +119,10 @@ function renderGallery() {
     const img = card.querySelector('img');
     img.addEventListener('error', () => {
       img.outerHTML = placeholderCard(file, 'Photo needed');
+    });
+    img.addEventListener('load', () => {
+      card.style.cursor = 'zoom-in';
+      card.addEventListener('click', () => openLightbox(img.src, year));
     });
   });
 }

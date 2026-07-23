@@ -335,6 +335,25 @@ section { padding: 84px 0; }
   letter-spacing: 0.06em;
 }
 
+/* ---------- Lightbox ---------- */
+#lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+}
+#lightbox.open { display: flex; }
+#lightbox-img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.8);
+}
+
 /* ---------- Footer ---------- */
 footer {
   background: #000000;
