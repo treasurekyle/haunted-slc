@@ -106,6 +106,7 @@ function renderGallery() {
     { year: '2023 — Salt Lake City Cemetery', file: 'gallery/2023-01.jpg' },
     { year: '2022 — Haunted SLC History', file: 'gallery/2022-01.jpg' },
     { year: '2021 — Haunted Downtown', file: 'gallery/2021-01.jpg' },
+    { year: '2021 — Haunted Downtown', file: 'gallery/2021-02.jpg' },
     { year: '2020 — The First Tour', file: 'gallery/2020-01.jpg' }
   ];
   grid.innerHTML = '';
