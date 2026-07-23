@@ -101,8 +101,13 @@ function renderGallery() {
   const years = [
     { year: '2025 — Haunted State Street', file: 'gallery/2025-01.jpg' },
     { year: '2025 — Haunted State Street', file: 'gallery/2025-02.jpg' },
+    { year: '2025 — Haunted State Street', file: 'gallery/2025-03.jpg' },
+    { year: '2025 — Haunted State Street', file: 'gallery/2025-04.jpg' },
+    { year: '2025 — Haunted State Street', file: 'gallery/2025-05.jpg' },
     { year: '2024 — Haunted South Temple', file: 'gallery/2024-01.jpg' },
     { year: '2024 — Haunted South Temple', file: 'gallery/2024-02.jpg' },
+    { year: '2024 — Haunted South Temple', file: 'gallery/2024-03.jpg' },
+    { year: '2024 — Haunted South Temple', file: 'gallery/2024-04.jpg' },
     { year: '2023 — Salt Lake City Cemetery', file: 'gallery/2023-01.jpg' },
     { year: '2022 — Haunted SLC History', file: 'gallery/2022-01.jpg' },
     { year: '2021 — Haunted Downtown', file: 'gallery/2021-01.jpg' },
