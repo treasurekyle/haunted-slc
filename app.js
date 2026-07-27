@@ -100,6 +100,7 @@ function closeLightbox() {
 function renderGallery() {
   const grid = document.getElementById('gallery-grid');
   const years = [
+    { year: '2026 — Pioneer Day Ghost Tour', file: 'gallery/2026-01.png' },
     { year: '2025 — Haunted State Street', file: 'gallery/2025-01.jpg' },
     { year: '2025 — Haunted State Street', file: 'gallery/2025-02.jpg' },
     { year: '2025 — Haunted State Street', file: 'gallery/2025-03.jpg' },
