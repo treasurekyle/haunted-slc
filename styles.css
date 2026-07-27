@@ -161,6 +161,7 @@ section { padding: 84px 0; }
   margin: -30px 0 50px;
   font-size: 0.95rem;
 }
+.route-sub { opacity: 0.7; font-size: 0.82rem; }
 
 .stops-grid {
   display: grid;

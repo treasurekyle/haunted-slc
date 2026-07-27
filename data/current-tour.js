@@ -18,13 +18,14 @@
  */
 
 const TOUR_INFO = {
-  tourName: "Pioneer Day Ghost Tour",
-  tagline: "A Very Special Pioneer Day Ghost Tour",
-  date: "Thursday, July 23",
-  time: "7:30 PM",
-  meetingSpot: "Meet at the Pioneer Museum \u2014 300 N Main St, Salt Lake City",
+  tourName: "2026 Halloween Ghost Tour",
+  tagline: "An Annual Halloween Walking Ghost Tour of Salt Lake City",
+  date: "Friday, October 30",
+  time: "6:00 PM",
+  meetingSpot: "Meet at The Whale — 9th & 9th, Salt Lake City",
+  routeDetails: "~4 miles · ~2 hours · Wear comfortable shoes",
   headerImage: "header/2026-header.png",
-  headerImageAlt: "A Very Special Pioneer Day Ghost Tour \u2014 Thursday, July 23 at 7:30pm, meet at the Pioneer Museum, 300 N Main St, Salt Lake City"
+  headerImageAlt: "2026 Halloween Ghost Tour — Friday, October 30 at 6:00pm, meet at The Whale, 9th & 9th, Salt Lake City"
 };
 
 // RSVP not open yet — swap this to the real Eventbrite link when it's ready.
@@ -32,10 +33,10 @@ const RSVP_URL = null;
 
 // Order matters — this is the order stops will appear on the route.
 const TOUR_STOP_SLUGS = [
-  "utah-pioneer-museum",
-  "mccune-mansion",
-  "temple-square",
-  "brigham-young-cemetery",
-  "beehive-lion-house",
-  "joseph-smith-memorial-building"
+  "the-whale",
+  "judge-memorial-high-school",
+  "axe-attack-house",
+  "tower-theatre",
+  "liberty-park-ghost-fountain",
+  "liberty-park-pond"
 ];

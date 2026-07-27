@@ -41,7 +41,9 @@ function renderRsvpButtons() {
 
 function renderRouteInfo() {
   const el = document.getElementById('route-info');
-  el.textContent = `${TOUR_INFO.date} · ${TOUR_INFO.time} · ${TOUR_INFO.meetingSpot}`;
+  let html = `${TOUR_INFO.date} · ${TOUR_INFO.time} · ${TOUR_INFO.meetingSpot}`;
+  if (TOUR_INFO.routeDetails) html += `<br><span class="route-sub">${TOUR_INFO.routeDetails}</span>`;
+  el.innerHTML = html;
 }
 
 function renderStops() {

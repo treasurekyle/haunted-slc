@@ -174,5 +174,41 @@ const STOPS = {
     neighborhood: "Downtown",
     blurb: "Following a 1978 tragedy, this hotel is said to be haunted by the laughter of children \u2014 playful spirits some believe once tried to help a drowning woman in the pool.",
     image: "stops/old-shilo-inn.jpg"
+  },
+  "the-whale": {
+    title: "The Whale",
+    neighborhood: "9th & 9th",
+    blurb: "Our starting point and a neighborhood institution. Before we set off into the dark, raise a glass \u2014 and keep an eye on the back booth. Regulars have long reported a presence there that doesn\u2019t show up in the mirror.",
+    image: "stops/the-whale.webp"
+  },
+  "judge-memorial-high-school": {
+    title: "Judge Memorial High School",
+    neighborhood: "9th & 9th",
+    blurb: "Founded in 1921 and named for a Catholic bishop, this school carries more than a century of history within its walls. Staff working late have reported the sound of a locker closing on an empty floor \u2014 and a figure in the upstairs windows long after the last bell.",
+    image: "stops/judge-memorial-high-school.jpg"
+  },
+  "axe-attack-house": {
+    title: "Axe Attack House",
+    neighborhood: "Central City",
+    blurb: "On the surface, an ordinary Salt Lake City home. But the story of what happened inside these walls one autumn night has never fully left the neighborhood. Some residents say the energy of that evening never quite dissipated.",
+    image: "stops/axe-attack-house.png"
+  },
+  "tower-theatre": {
+    title: "The Tower Theatre",
+    neighborhood: "9th & 9th",
+    blurb: "This beloved 1928 cinema has screened horror films to generations of Salt Lakers \u2014 but the real story, according to longtime employees, plays out in the projection booth. Footsteps above an empty balcony, a film that started itself, and a cold spot that moves.",
+    image: "stops/tower-theatre.jpg"
+  },
+  "liberty-park-ghost-fountain": {
+    title: "Liberty Park Ghost Fountain",
+    neighborhood: "Liberty Park",
+    blurb: "Locals have called it cursed for decades. The water in this fountain runs cold even in summer heat, and those who linger at dusk sometimes catch a reflection in the basin that doesn\u2019t belong to them.",
+    image: "stops/liberty-park-ghost-fountain.png"
+  },
+  "liberty-park-pond": {
+    title: "Liberty Park Pond",
+    neighborhood: "Liberty Park",
+    blurb: "The pond at the heart of Liberty Park looks peaceful enough by day. But after sundown, visitors have reported lights moving just beneath the surface and the unmistakable sound of footsteps circling the water \u2014 with no one there to make them.",
+    image: "stops/liberty-park-pond.jpeg"
   }
 };
