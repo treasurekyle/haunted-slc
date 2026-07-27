@@ -8,13 +8,13 @@
   --paper-2: #f0f0f0;
   --ink: #1a1a1a;
   --ink-soft: #555555;
-  --text: #ffffff;
+  --text: #1a1a1a;
   --text-muted: #888888;
   --line: #333333;
   --blood: #ff1b1b;
   --blood-bright: #ff1b1b;
   --lantern: #ffffff;
-  --lantern-soft: #ffffff;
+  --lantern-soft: #333333;
   --shadow: rgba(0, 0, 0, 0.5);
 
   --font-display: 'IM Fell English SC', serif;
@@ -219,7 +219,7 @@ section { padding: 84px 0; }
     repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,0.02) 10px, rgba(255,255,255,0.02) 20px);
 }
 .stop-placeholder svg { width: 34px; height: 34px; opacity: 0.6; }
-.stop-placeholder .fname { font-family: var(--font-label); font-size: 0.68rem; color: var(--lantern-soft); word-break: break-all; }
+.stop-placeholder .fname { font-family: var(--font-label); font-size: 0.68rem; color: rgba(255,255,255,0.65); word-break: break-all; }
 
 .stop-body { padding: 20px 22px 22px; }
 .stop-neighborhood {
@@ -229,7 +229,7 @@ section { padding: 84px 0; }
   letter-spacing: 0.14em;
   color: var(--lantern);
 }
-.stop-body h3 { font-size: 1.5rem; margin: 6px 0 10px; }
+.stop-body h3 { font-size: 1.5rem; margin: 6px 0 10px; color: #ffffff; }
 .stop-body p { color: var(--text-muted); font-size: 0.96rem; margin: 0; }
 
 /* ---------- Paper panels (About / FAQ) ---------- */
@@ -320,7 +320,7 @@ section { padding: 84px 0; }
   left: 0;
   right: 0;
   background: linear-gradient(0deg, rgba(0,0,0,0.75), transparent);
-  color: var(--lantern-soft);
+  color: rgba(255,255,255,0.9);
   font-family: var(--font-label);
   font-size: 0.75rem;
   padding: 22px 12px 10px;
@@ -353,8 +353,8 @@ footer {
   text-align: center;
   padding: 70px 0 46px;
 }
-footer .eyebrow { justify-content: center; margin-bottom: 20px; }
-footer h2 { font-size: 2.2rem; margin-bottom: 28px; }
+footer .eyebrow { justify-content: center; margin-bottom: 20px; color: rgba(255,255,255,0.65); }
+footer h2 { font-size: 2.2rem; margin-bottom: 28px; color: #ffffff; }
 footer .foot-note {
   margin-top: 34px;
   font-family: var(--font-label);
