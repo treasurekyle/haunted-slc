@@ -23,7 +23,7 @@ const TOUR_INFO = {
   date: "Thursday, July 23",
   time: "7:30 PM",
   meetingSpot: "Meet at the Pioneer Museum \u2014 300 N Main St, Salt Lake City",
-  headerImage: "header/pioneer-day-2026.png",
+  headerImage: "header/2026-header.png",
   headerImageAlt: "A Very Special Pioneer Day Ghost Tour \u2014 Thursday, July 23 at 7:30pm, meet at the Pioneer Museum, 300 N Main St, Salt Lake City"
 };
 
