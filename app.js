@@ -63,7 +63,6 @@ function renderStops() {
         <img src="images/${stop.image}" alt="${stop.title}" loading="lazy">
       </div>
       <div class="stop-body">
-        <div class="stop-neighborhood">${stop.neighborhood}</div>
         <h3>${stop.title}</h3>
         <p>${stop.blurb}</p>
       </div>`;
