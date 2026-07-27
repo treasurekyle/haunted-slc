@@ -23,7 +23,7 @@ const TOUR_INFO = {
   date: "Friday, October 30",
   time: "6:00 PM",
   meetingSpot: "Meet at The Whale — 9th & 9th, Salt Lake City",
-  routeDetails: "~4 miles · ~2 hours · Wear comfortable shoes",
+  routeDetails: "~2.5 miles · ~2 hours · Wear comfortable shoes",
   headerImage: "header/2026-header.png",
   headerImageAlt: "2026 Halloween Ghost Tour — Friday, October 30 at 6:00pm, meet at The Whale, 9th & 9th, Salt Lake City"
 };
