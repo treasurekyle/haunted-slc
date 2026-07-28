@@ -8,6 +8,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Gagalin';
+  src: url('fonts/Gagalin-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --bg: #f3fafc;
   --bg-panel: #111111;
@@ -25,7 +33,7 @@
   --lantern-soft: #333333;
   --shadow: rgba(0, 0, 0, 0.5);
 
-  --font-display: 'Blowbrush', serif;
+  --font-display: 'Gagalin', serif;
   --font-display-i: 'IM Fell English', serif;
   --font-label: 'Special Elite', monospace;
   --font-body: 'Vollkorn', serif;
