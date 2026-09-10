@@ -27,8 +27,9 @@ function renderHero() {
 
 function renderRsvpButtons() {
   const spots = document.querySelectorAll('[data-rsvp]');
+  const expired = RSVP_END_DATE && new Date() > new Date(RSVP_END_DATE);
   spots.forEach((el) => {
-    if (RSVP_URL) {
+    if (RSVP_URL && !expired) {
       el.innerHTML = `<a class="btn btn-lantern" href="${RSVP_URL}" target="_blank" rel="noopener">RSVP for the ${TOUR_INFO.tourName}</a>`;
     } else {
       el.innerHTML = `
