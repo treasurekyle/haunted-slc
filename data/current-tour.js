@@ -22,14 +22,14 @@ const TOUR_INFO = {
   tagline: "An Annual Halloween Walking Ghost Tour of Salt Lake City",
   date: "Friday, October 30",
   time: "6:00 PM",
-  meetingSpot: "Meet at The Whale — 9th & 9th, Salt Lake City",
+  meetingSpot: "Meet at The Whale",
   routeDetails: "~2.5 miles · ~2 hours · Wear comfortable shoes",
   headerImage: "header/2026-header.png",
   headerImageAlt: "2026 Halloween Ghost Tour — Friday, October 30 at 6:00pm, meet at The Whale, 9th & 9th, Salt Lake City"
 };
 
 const RSVP_URL = "https://www.eventbrite.com/e/the-6th-annual-slc-walking-ghost-tour-tickets-2000353665662";
-const RSVP_END_DATE = "2026-10-30";
+const RSVP_END_DATE = "2026-10-24";
 
 // Order matters — this is the order stops will appear on the route.
 const TOUR_STOP_SLUGS = [

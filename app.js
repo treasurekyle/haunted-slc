@@ -34,7 +34,7 @@ function renderRsvpButtons() {
     } else {
       el.innerHTML = `
         <span class="btn btn-ghost" aria-disabled="true">
-          <span class="flicker">&#9670;</span> RSVP opens soon
+          <span class="flicker">&#9670;</span> Registration for next year's tour coming soon
         </span>`;
     }
   });
@@ -42,7 +42,8 @@ function renderRsvpButtons() {
 
 function renderRouteInfo() {
   const el = document.getElementById('route-info');
-  let html = `${TOUR_INFO.date} · ${TOUR_INFO.time} · ${TOUR_INFO.meetingSpot}`;
+  const year = TOUR_INFO.tourName.match(/\d{4}/)?.[0] ?? '';
+  let html = `${year} · ${TOUR_INFO.date} · ${TOUR_INFO.time} · ${TOUR_INFO.meetingSpot}`;
   if (TOUR_INFO.routeDetails) html += `<br><span class="route-sub">${TOUR_INFO.routeDetails}</span>`;
   el.innerHTML = html;
 }
@@ -103,13 +104,8 @@ function renderGallery() {
   const years = [
     { year: '2026 — Pioneer Day Ghost Tour', file: 'gallery/2026-01.png' },
     { year: '2025 — Haunted State Street', file: 'gallery/2025-01.jpg' },
-    { year: '2025 — Haunted State Street', file: 'gallery/2025-02.jpg' },
-    { year: '2025 — Haunted State Street', file: 'gallery/2025-03.jpg' },
     { year: '2025 — Haunted State Street', file: 'gallery/2025-04.jpg' },
-    { year: '2025 — Haunted State Street', file: 'gallery/2025-05.jpg' },
-    { year: '2024 — Haunted South Temple', file: 'gallery/2024-01.jpg' },
     { year: '2024 — Haunted South Temple', file: 'gallery/2024-02.jpg' },
-    { year: '2024 — Haunted South Temple', file: 'gallery/2024-03.jpg' },
     { year: '2024 — Haunted South Temple', file: 'gallery/2024-04.jpg' },
     { year: '2023 — Salt Lake City Cemetery', file: 'gallery/2023-01.jpg' },
     { year: '2022 — Haunted SLC History', file: 'gallery/2022-01.jpg' },

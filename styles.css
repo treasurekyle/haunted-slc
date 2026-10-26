@@ -373,6 +373,12 @@ footer {
 }
 footer .eyebrow { justify-content: center; margin-bottom: 20px; color: rgba(255,255,255,0.65); }
 footer h2 { font-size: 2.2rem; margin-bottom: 28px; color: #ffffff; }
+.footer-instagram {
+  cursor: pointer;
+  margin-top: 18px;
+  display: inline-flex;
+}
+.footer-instagram:hover { opacity: 1; }
 footer .foot-note {
   margin-top: 34px;
   font-family: var(--font-label);
